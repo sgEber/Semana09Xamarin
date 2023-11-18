@@ -30,7 +30,7 @@ namespace Semana09Xamarin
             if (direction == "Down")
                 ((BoxView)sender).BackgroundColor = Color.Blue;
 
-            _label.Text =$"You swiped:{e.Direction.ToString()}";
+            _label.Text = $"You swiped: {e.Direction.ToString()}";
 
         }
     }

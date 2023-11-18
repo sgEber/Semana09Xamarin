@@ -15,24 +15,28 @@ namespace Semana09Xamarin
             InitializeComponent();
         }
 
-        private void OnTapDemoClicked(object sender, EventArgs e)
+        async private void OnTapDemoClicked(object sender, EventArgs e)
         {
             // Navega a la página de demo de pulsación
+            await Navigation.PushAsync(new TapDemo());
         }
 
-        private void OnSwipeDemoClicked(object sender, EventArgs e)
+        async private void OnSwipeDemoClicked(object sender, EventArgs e)
         {
             // Navega a la página de demo de deslizamiento
+            await Navigation.PushAsync(new SwipeDemo());
         }
 
-        private void OnPinchDemoClicked(object sender, EventArgs e)
+        async private void OnPinchDemoClicked(object sender, EventArgs e)
         {
             // Navega a la página de demo de pellizco
+            await Navigation.PushAsync(new PinchDemo());
         }
 
-        private void OnPanDemoClicked(object sender, EventArgs e)
+        async private void OnPanDemoClicked(object sender, EventArgs e)
         {
             // Navega a la página de demo de paneo
+            await Navigation.PushAsync(new PanDemo());
         }
     }
 }

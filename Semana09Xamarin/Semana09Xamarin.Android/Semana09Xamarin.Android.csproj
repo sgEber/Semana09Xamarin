@@ -84,7 +84,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\MonoMonkey.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Semana09Xamarin\Semana09Xamarin.csproj">
       <Project>{02CFF239-7EFF-4A3B-B726-E94516185F79}</Project>

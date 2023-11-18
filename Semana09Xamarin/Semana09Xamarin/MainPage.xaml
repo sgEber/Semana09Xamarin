@@ -14,7 +14,6 @@
             <Button Text="Demo de Deslizamiento" Clicked="OnSwipeDemoClicked"/>
             <Button Text="Demo de Pellizco" Clicked="OnPinchDemoClicked"/>
             <Button Text="Demo de Paneo" Clicked="OnPanDemoClicked"/>
-            <!-- Agrega más botones según necesites -->
         </StackLayout>
     </StackLayout>
 
